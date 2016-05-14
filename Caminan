@@ -9,6 +9,7 @@ public class Caminan extends Viviparos {
     private Boolean orejas;
 
     Caminan() { //	Constructor sin parametros
+	super();
 	patas = true;
 	pelo = true ;
 	orejas = true;

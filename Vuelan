@@ -16,6 +16,7 @@ public class Vuelan extends Viviparos {
     }
 
     Vuelan() {	    //Constructor por default
+	super();
 	alas = false;
 	plumas= false;
 	altura_vuelan = 0;

@@ -65,12 +65,12 @@ public class TallaMediana extends VivenAgua {
     }
     
     public void Rastrear (){
-	if(getNombre().equals("Ballena")){
-	    System.out.println("Debido a que es una ballena, puede rastrear mediante un sonar.");
+	if (getJerarquia_cadal() == true ){
+	    System.out.println("Debido a que "+getNombre()+" es un depredador, puede rastrear mediante su olfato.");
 	}
 	
 	else{
-	    System.out.println("Debido a que "+getNombre()+" no es una ballena, no puede rastrear.");
+	    System.out.println("Debido a que "+getNombre()+" no es una depredador, no puede rastrear.");
 	}
     }
     
